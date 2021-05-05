@@ -18,12 +18,31 @@ If you want to create a new jar use:
 mvn clean install
 ```
 
-A working build is present in the path `./dist`:
-- `canvas.jar` -> application packaged as a jar file.
-- `canvas.bat` -> easy and fast way to test the application.
+# Getting Started
+## Deliverables:
+Following will be delivered in the dist folder as output of mvn build command.
+* Application jar file with name drawcanvas.jar.
+* drawcanvas.bat file with cmd to run the application convinently. Run: 
+    ```
+    cd /yourpath/canvas/dist
+    canvas.bat
+    ```
 
-Run: 
-```
-cd /yourpath/canvas/dist
-canvas.bat
-```
+## Build & Setting Pre-Requisites for Application
+* Building application from code.
+	* Clone code from location https://github.com/amankachhal99/drawCanvas.git
+	* Go to command prompt on the checked out location.
+	* Using maven plugin `maven-jar-plugin` we can package our application in `drawcanvas.jar`.
+      If you want to create a new jar use:
+      
+      ```
+      mvn clean install
+      ```
+      A working build is present in the path `./dist`:
+      - `canvas.jar` -> application packaged as a jar file.
+      - `canvas.bat` -> easy and fast way to test the application.
+
+
+## Scope for Improvement
+* Unit test cases can be written in more exhaustive manner to cover the complete code.
+* More data validation can be done to make the PROGRAM robust.
