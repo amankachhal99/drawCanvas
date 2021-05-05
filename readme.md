@@ -11,21 +11,14 @@ At the moment, the program should support the following commands:
 - __B x y c__ Should fill the entire area connected to (x,y) with "colour" c. The behaviour of this is the same as that of the "bucket fill" tool in paint programs.
 - __Q__ Should quit the program.
 
-###	A Working build
-Using maven plugin `maven-jar-plugin` we can package our application in `canvas.jar`.
-If you want to create a new jar use:
-```
-mvn clean install
-```
-
 # Getting Started
 ## Deliverables:
 Following will be delivered in the dist folder as output of mvn build command.
 * Application jar file with name drawcanvas.jar.
 * drawcanvas.bat file with cmd to run the application convinently. Run: 
     ```
-    cd /yourpath/canvas/dist
-    canvas.bat
+    cd /yourpath/drawcanvas/dist
+    drawcanvas.bat
     ```
 
 ## Build & Setting Pre-Requisites for Application
@@ -39,8 +32,8 @@ Following will be delivered in the dist folder as output of mvn build command.
       mvn clean install
       ```
       A working build is present in the path `./dist`:
-      - `canvas.jar` -> application packaged as a jar file.
-      - `canvas.bat` -> easy and fast way to test the application.
+      - `drawcanvas.jar` -> application packaged as a jar file.
+      - `drawcanvas.bat` -> easy and fast way to test the application.
 
 
 ## Scope for Improvement
