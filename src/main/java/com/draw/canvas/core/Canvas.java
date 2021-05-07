@@ -46,12 +46,6 @@ public class Canvas {
 		}
 	}
 	
-	/**
-	 * Print the canvas state surrounded by the borders: 
-	 * -------------- 
-	 * | matrix[][] | 
-	 * --------------
-	 */
 	public void printCanvas() {
 		// first row ----------
 		for (int j = 0; j < width + 2; j++) {
